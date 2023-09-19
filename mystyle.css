@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ padding: 0;
+margin: 0;
+}
+h1{
+color: #FFC7D4;
+font-size: 50px;
+text-align: center;
+ padding: 300px;
+}
+
+h2{
+	color:#BB68FC;
+}
+
+h3{
+	color: #5F1A96;
+}
+
+header{
+position: fixed;
+z-index: 2;
+width: 100%;
+}
+header ul{
+margin-top: 30px;
+margin-left: auto;
+margin-right: auto;
+display: table;
+list-style-type: none;
+width: 50%;
+}
+ul li{
+display: table-cell;
+text-align: center;
+}
+ul li a{
+text-decoration: none;
+ color: #5F1A96;
+font-weight: 600;
+background-color: rgba(178,175,175,0.40);
+padding: 20px;
+border: medium solid #aa84f9;
+}
+
+.parallax{
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 670px;
+position: relative;
+}
+.bg1{
+background-image: url("1.png");
+}
+.bg2{
+background-image: url("2.png");
+}
+.bg3{
+background-image: url("3.png");
+}
+.texto {
+padding: 5%;
+width: 100%;
+background-color: white;
+	text-align: justify;
+}
+
+
+#integrantes .imagenes
+img{
+    padding-right: 2%;
+    padding-bottom: 2%;
+}
+
+/*ESTILOS FOOTER*/
+footer {
+    padding-top: 2%;
+    padding-bottom: 1%;
+	text-align: center;
+	background-color: #363636;
+	color: #bcbcbc;
+}
+#footer .gotop {
+  position: fixed;
+  z-index: 3;
+  bottom: 2vh;
+  right: 2vw;
+}
+#footer .gotop img {
+  width: 5vw;
+}
